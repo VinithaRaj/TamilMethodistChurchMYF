@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Lesson1"
+    tools:showIn="@layout/activity_lesson1">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/tamiltranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:fontFamily="serif"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="தமிழ்"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:id="@+id/temptTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:theme="@style/ttitle"
+        />
+    <TextView
+        android:id="@+id/temptAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ImageView
+        android:id="@+id/temptLessonImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <TextView
+        android:id="@+id/temptEng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:id="@+id/temptQuestTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/ttitle"
+
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <TextView
+        android:id="@+id/temptQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/temptAnsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/ttitle"
+
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <TextView
+        android:id="@+id/temptAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:textColor="#000000"
+        />
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
